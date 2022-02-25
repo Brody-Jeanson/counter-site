@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+html {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Nunito, Calibri, sans-serif;
+}
+
+body {
+    background-color: #f7f7f7;
+    color: #191919; 
+}
+
+.header {
+    font-size: 56px;
+    text-align: center;
+}
+
+.result {
+    font-size: 76px;
+    margin-bottom: 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.buttons {
+    text-align: center;
+    justify-content: center;
+
+}
+
+.minus {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    font-size: 56px;
+    padding: 5px;
+    border: 0;
+}
+
+.plus {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    font-size: 56px;
+    padding: 5px;
+    border: 0;
+}
+
+footer {
+    text-align: center;
+    margin-top: 75%;
+}
+
+.dark-mode {
+    background-color: #191919;
+    color: #f7f7f7;
+  }
